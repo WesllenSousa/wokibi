@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaCriarSenha_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/voltar_50" 
+            style="@style/estilo_botao_transparente" />
+        
+        <ImageButton
+            android:id="@+id/telaCriarSenha_bt_salvar"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/salvar_50" 
+            style="@style/estilo_botao_transparente" /> 
+       
+   </RelativeLayout>
+   
+    <ScrollView 
+    	android:layout_width="fill_parent" android:layout_height="fill_parent"  >
+    <LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="match_parent"
+	    android:orientation="vertical" >
+        
+        <TextView 
+            android:id="@+id/telaCriarSenha_tv_senhaAnterior" 
+            android:text="@string/telaCriarSenha_senhaAnterior" style="@style/estilo_textview_cadastro"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        
+        <EditText 
+            android:id="@+id/telaCriarSenha_et_senhaAnterior" style="@style/estilo_edittext_cadastro" 
+            android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:password="true" />
+        
+        <TextView android:text="@string/telaCriarSenha_novaSenha" style="@style/estilo_textview_cadastro" 
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <EditText android:id="@+id/telaCriarSenha_et_novaSenha" style="@style/estilo_edittext_cadastro" 
+            android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:password="true" />
+        
+        <TextView 
+            android:text="@string/telaCriarSenha_repetirSenha" style="@style/estilo_textview_cadastro"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        
+        <EditText 
+            android:id="@+id/telaCriarSenha_et_repetirSenha" style="@style/estilo_edittext_cadastro"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:password="true" />
+        
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

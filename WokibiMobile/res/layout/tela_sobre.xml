@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+	    
+	    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+	        
+	        <ImageButton 
+	            android:id="@+id/telaSobre_bt_voltar" 
+	            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+	            android:layout_width="wrap_content" android:layout_height="wrap_content"
+	            android:src="@drawable/voltar_50" 
+	            style="@style/estilo_botao_transparente" />
+	       
+	   </RelativeLayout>
+	        
+       <LinearLayout 
+		    android:layout_width="match_parent" android:layout_height="match_parent"
+		    android:orientation="vertical" android:background="@drawable/fundo" >
+		    
+           <ScrollView 
+  	   				android:layout_width="match_parent" android:layout_height="wrap_content" >
+       
+		       <LinearLayout 
+				    android:layout_width="match_parent" android:layout_height="match_parent"
+				    android:orientation="vertical" android:background="@color/transparente" >
+   
+					   <ImageView 
+					       android:src="@drawable/logo_nome_300"
+					       android:layout_width="fill_parent" android:layout_height="wrap_content" />
+					   
+					   <TextView
+						       android:text="@string/telaSobre_versao" 
+						       android:layout_width="fill_parent" android:layout_height="wrap_content" 
+						       style="@style/estilo_edittext_cadastro" android:gravity="center" />
+					   
+					   <ImageView 
+						       android:src="@drawable/wesllen"
+						       android:layout_width="fill_parent" android:layout_height="wrap_content" 
+						       android:gravity="center" 
+						       android:layout_marginTop="20sp" />
+					        
+					   <TextView
+						       android:text="@string/telaSobre_wesllen" 
+						       android:layout_width="fill_parent" android:layout_height="wrap_content" 
+						       android:gravity="center" />
+				</LinearLayout>
+  
+  			</ScrollView>
+   
+   </LinearLayout>
+	
+</LinearLayout>
+

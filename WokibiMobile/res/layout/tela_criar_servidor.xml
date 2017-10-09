@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaCriarServidor_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/voltar_50" 
+            style="@style/estilo_botao_transparente" />
+       
+   </RelativeLayout>
+   
+    <TextView 
+	      android:id="@+id/telaCriarServidor_tv_tituloLocalizacao"
+	      android:layout_width="fill_parent" android:layout_height="20sp" 
+	      style="@style/estilo_textview_divisaoLista"
+	      android:text="@string/telaCriarServidor_barraLocalizacao" />
+    
+    <TextView 
+	      android:id="@+id/telaCriarServidor_tv_localizacao"
+	      android:layout_width="fill_parent" android:layout_height="40sp" 
+	      style="@style/estilo_textview_principal"
+	      android:layout_marginTop="5sp" android:gravity="center"
+	      android:text="@string/telaCriarServidor_semRede" />
+    
+    <ToggleButton 
+        android:id="@+id/telaCriarServidor_tg_conectarDesconectar"
+        android:layout_width="fill_parent" android:layout_height="wrap_content" 
+        android:textOn="@string/telaCriarServidor_desconectar" android:textOff="@string/telaCriarServidor_conectar" />
+   
+    <TextView 
+	      android:id="@+id/telaCriarServidor_tv_tituloContatos"
+	      android:layout_width="fill_parent" android:layout_height="20sp" 
+	      style="@style/estilo_textview_divisaoLista"
+	      android:text="@string/telaCriarServidor_barraContatos" />
+    
+    <ListView 
+        android:id="@+id/telaCriarServidor_lv_contatos"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:divider="#fff"
+        android:cacheColorHint="#00000000" 
+        android:layout_gravity="center"
+        android:dividerHeight="1sp" 
+        android:descendantFocusability="afterDescendants" 
+        android:smoothScrollbar="true"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide" 
+        android:layout_weight="1" />
+    
+    
+</LinearLayout>

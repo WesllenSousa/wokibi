@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@color/transparente" >
+    
+	 <TextView 
+	      android:id="@+id/listaConversa_tv_conversa"
+	      
+	      android:layout_centerVertical="true" android:layout_marginLeft="1sp"
+	      android:layout_width="fill_parent" android:layout_height="wrap_content" 
+	      
+	      style="@style/estilo_textview_lista" android:background="@color/transparente"  />
+	 
+	 <ImageView 
+	     android:id="@+id/listaConversa_iv_imagem"
+	     
+	     android:layout_centerVertical="true" android:layout_alignParentRight="true"
+	     android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	     />
+	          
+</RelativeLayout>    

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="opcao_listaClientesConectados">  
+        <item>@string/dialog_associarConversa</item>
+        <item>@string/dialog_desconectar</item>
+    </string-array>
+    
+    <string-array name="opcao_listaServidoresConectados">  
+        <item>@string/dialog_detalhe</item>
+        <item>@string/dialog_associarConversa</item>
+        <item>@string/dialog_enviarLocalizacao</item>
+    </string-array>
+    
+    <string-array name="opcao_listaContatos">  
+        <item>@string/dialog_editar</item>
+        <item>@string/dialog_excluir</item>
+    </string-array> 
+    
+    <string-array name="opcao_conversas">  
+        <item>@string/dialog_verMensagens</item>
+        <item>@string/dialog_desconectar</item>
+        <item>@string/dialog_excluir</item>
+    </string-array>
+    
+    <string-array name="opcao_conversas2">  
+        <item>@string/dialog_verMensagens</item>
+        <item>@string/dialog_conectar</item>
+        <item>@string/dialog_excluir</item>
+    </string-array>
+    
+    <string-array name="opcao_listaClientesServidor">  
+        <item>@string/dialog_iniciarConversa</item>
+        <item>@string/dialog_associarConversa</item>
+    </string-array> 
+    
+    <string-array name="opcao_listaMensagem">  
+        <item>@string/dialog_ocultar</item>
+        <item>@string/dialog_excluir</item>
+    </string-array> 
+    
+</resources> 

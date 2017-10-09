@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Geral -->
+    <string name="nome_aplicacao">Wokibi</string>
+    <string name="geral_servidorNaoDefinido">Server not defined!</string>
+    <string name="geral_servidorNaoEncontrado">Server not found!</string>
+    <string name="geral_rede">Network</string>
+    <string name="geral_clienteConectando">Client connecting...</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_tituloDialogList">Choose an option</string>
+    <string name="dialog_tituloDialogExcluir">Confirm Delete?</string>
+    <string name="dialog_tituloDialogDesconectar">Do you really want to disconnect?</string>
+    <string name="dialog_tituloDialogSairPrograma">Wokibi want to quit?</string>
+    <string name="dialog_tituloDialogConversa">You want to join or create a conversation?</string>
+    <string name="dialog_cliente">Join</string>
+    <string name="dialog_servidor">Create</string>
+    <string name="dialog_excluir">Delete</string>
+    <string name="dialog_editar">Edit</string>
+    <string name="dialog_sim">Yes</string>
+    <string name="dialog_nao">No</string>
+    <string name="dialog_criar">create</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_aviso">Warning</string>
+    <string name="dialog_cancelar">Cancel</string>
+    <string name="dialog_conectar">Connect</string>
+    <string name="dialog_desconectar">Disconnect</string>
+    <string name="dialog_associarConversa">Associating a conversation</string>
+    <string name="dialog_iniciarConversa">Start conversation</string>
+    <string name="dialog_detalhe">Details</string>
+    <string name="dialog_enviarLocalizacao">Send location</string>
+    <string name="dialog_tituloDialogDono">You do not have registration yet, please feel free to register.</string>
+    <string name="dialog_tituloDialogIp">You\'re on a private network. For this reason you will not be visible on the Internet!</string>
+    <string name="dialog_verMensagens">Messages</string>
+    <string name="dialog_ocultar">Hide</string>
+
+    <!-- Login -->
+    <string name="telaLogin_tv_senha">Password</string>
+    <string name="telaLogin_ht_senha">Enter the password...</string>
+    <string name="telaLogin_bt_logar">log in</string>
+    <string name="telaLogin_bt_sair">Exit</string>
+    
+    <!-- Principal -->
+    <string name="telaPrincipal_tv_servidor">Server</string>
+    
+    <!-- Lista Contatos -->
+    <string name="telaListaContatos_barraDono">I</string>
+    <string name="telaListaContatos_barraAmigos">Friends</string>
+    <string name="telaListaContatos_msg_contatoExluir">Contact successfully deleted!</string>
+    <string name="telaListaContatos_procurar">Search...</string>
+    
+    <!-- Cadastro Editar Contato -->
+    <string name="telaCadastroEditarContato_tv_nome">Name*:  </string>
+    <string name="telaCadastroEditarContato_tv_ddd">DDD*:  </string>
+    <string name="telaCadastroEditarContato_tv_celular">Phone*: </string>
+    <string name="telaCadastroEditarContato_tv_email">Email*:  </string>
+    <string name="telaCadastroEditarContato_bt_salvar">Save</string>
+    <string name="telaCadastroEditarContato_msg_nome">Name empty!</string>
+    <string name="telaCadastroEditarContato_msg_ddd">DDD empty!</string>
+    <string name="telaCadastroEditarContato_msg_celular">Phone empty!</string>
+    <string name="telaCadastroEditarContato_msg_email">Email empty!</string>
+    <string name="telaCadastroEditarContato_msg_nomeExiste">Name already exists!</string>
+    
+    <!-- Conversa -->
+    <string name="telaConversa_tv_conversaAtiva">Active conversations</string>
+    <string name="telaConversa_tv_conversaInativa">Inactive conversations</string>
+    <string name="telaConversa_msg_excluir">Conversation deleted successfully!</string>
+    
+    <!-- Contatos conectados -->
+    <string name="telaContatosConectados_tv_barraClientes">Contacts connected to your cell</string>
+    <string name="telaContatosConectados_tv_barraServidores">Contacts that you are connected</string>
+    <string name="telaContatosConectados_msg_contatoDesconectado">Contact offline!</string>
+    <string name="telaContatosConectados_msg_verificar">You can not disconnect a server!</string>
+    
+    <!-- Clientes conectados -->
+    <string name="telaClientesConectados_buscar">Seeking clients connected...</string>
+    <string name="telaClientesConectados_iniciarConversa">Starting conversation...</string>
+    <string name="telaClientesConectados_conversaCriada">Conversation successfully created!</string>
+    
+    <!-- Mensagem -->
+    <string name="telaMensagem_et_mensagem">Message here...</string>
+    <string name="telaMensagem_msg_salvar">Contact saved successfully!</string>
+    <string name="telaMensagem_msg_enviar">Message sent.</string>
+        
+    <!-- Nova Conversa Servidor -->
+    <string name="telaNovaConversaServidor_tv_barraLocalizacao">Report by location</string>
+    <string name="telaNovaConversaServidor_tv_contatos">You want to start conversation with...</string>
+    <string name="telaNovaConversaServidor_ck_celular">Phone</string>
+    <string name="telaNovaConversaServidor_ck_email">Email</string>
+    <string name="telaNovaConversaServidor_bt_criar">Create</string>
+    <string name="telaNovaConversaServidor_msg_servicoMensagem">Message service disabled!</string>
+    <string name="telaNovaConversaServidor_msg_localizacao">Select a location so!</string>
+    
+    <!-- Nova Conversa Cliente -->
+    <string name="telaNovaConversaCliente_tv_ip">Cellular address (Ip):  </string>
+    <string name="telaNovaConversaCliente_msg_conectar">Connecting...</string>
+    <string name="telaNovaConversaCliente_msg_conversa">Conversation successfully created!</string>
+    
+    <!-- Associar Usuario -->
+    <string name="telaAssociarUsuario_barraConectado">Contacts connected</string>
+    <string name="telaAssociarUsuario_barraDesconectado">Contacts disconnected</string>
+    <string name="telaAssociarContato_sms">Sent SMS to location: </string>
+    <string name="telaAssociarContato_rede">Request sent to: </string>
+    
+    <!-- Associar Conversa -->
+    <string name="telaAssociarConversa_localizacao">Request sent successfully!</string>
+    
+    <!-- Criar servidor -->
+    <string name="telaCriarServidor_barraLocalizacao">Cellular Address </string>
+    <string name="telaCriarServidor_barraContatos">Contacts connected </string>
+    <string name="telaCriarServidor_conectar">Activate</string>
+    <string name="telaCriarServidor_desconectar">Deactivate</string>
+    <string name="telaCriarServidor_semRede">Without network</string>
+    <string name="telaCriarServidor_servicoDesabilitado">Server service is disabled!</string>
+    <string name="telaCriarServidor_servicoFalha">Could not connect to the server service!</string>
+      
+    <!-- Criar senha -->
+    <string name="telaCriarSenha_senhaAnterior">Old Password*: </string>
+    <string name="telaCriarSenha_novaSenha">New Password: </string>
+    <string name="telaCriarSenha_repetirSenha">Repeat Password: </string>
+    <string name="telaCriarSenha_msg_senhasNaoCorrespondem">Passwords do not match!</string>
+    <string name="telaCriarSenha_msg_senhaInvalida">Old Password invalid!</string>
+    <string name="telaCriarSenha_msg_alterada">Password changed successfully!</string>
+    
+    <!-- Configurações -->
+    <string name="telaConfiguracoes_servidor">Server</string>
+    <string name="telaConfiguracoes_redes">Networks</string>
+    <string name="telaConfiguracoes_senha">Password</string>
+    <string name="telaConfiguracoes_opcao">Options</string>
+    <string name="telaConfiguracoes_ajuda">Help</string>
+    <string name="telaConfiguracoes_sobre">About</string>
+    
+    <!-- Opções -->
+    <string name="telaOpcoes_barraServicos">Services</string>
+    <string name="telaOpcoes_servicoServidor">Enable the server service</string>
+    <string name="telaOpcoes_servicoSMS">Enable the messaging service</string>
+    <string name="telaOpcoes_audio">Enable audio</string>
+    
+    <!-- Ajuda -->
+    <string name="telaAjuda_servidor">
+         This is the server, he is responsible for creating a connection that will manage your conversations. When he is 
+         active, others can connect to your phone and talk to each other.\n
+    </string>
+    <string name="telaAjuda_conversaServidor">
+         Creates and stores the conversation with your contacts. You have the option to create or join a conversation. 
+         Create a conversation is quite simple indicates that you want to talk and choose how to send location. 
+         Join a conversation you must inform the address of another cell.\n
+    </string>
+    <string name="telaAjuda_servidoresConectados">
+         Here you see the contacts that are connected to your mobile phones and also visualizes that 
+         you are connected. If you are connected to a mobile phone, you can see what people are 
+         connected to it, can initiate a private conversation with the contacts from your friend 
+         or associate these contacts to an ongoing conversation.\n
+    </string>
+    <string name="telaAjuda_contatos">
+        Here you can view and add your contacts you want to talk. \n
+    </string>
+    <string name="telaAjuda_configuracoes">
+        Displays the settings of your application. \n
+    </string>
+    
+    <!-- Sobre -->
+    <string name="telaSobre_versao">Version: 1.0 - 21/12/2012 - Beta</string>
+    <string name="telaSobre_wesllen">
+        Author: Wesllen Sousa Lima \n
+        Contact: wesllen.wsl@gmail.com
+    </string>
+    
+</resources>

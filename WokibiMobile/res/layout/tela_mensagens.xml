@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaMensagens_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/voltar_50" 
+            style="@style/estilo_botao_transparente" />
+ 
+        <ImageButton
+            android:id="@+id/telaMensagens_bt_sair"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/sair_50" 
+            style="@style/estilo_botao_transparente" />
+        
+        <ImageButton
+            android:id="@+id/telaMensagens_bt_adicionarUsuario"
+            android:layout_centerVertical="true" android:layout_toLeftOf="@+id/telaMensagens_bt_sair"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/adicionar_contato_50" 
+            style="@style/estilo_botao_transparente" />    
+            
+        <ImageButton
+            android:id="@+id/telaMensagens_bt_desocultar"
+            android:layout_centerVertical="true" android:layout_toLeftOf="@+id/telaMensagens_bt_adicionarUsuario"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/desocultar_50" 
+            style="@style/estilo_botao_transparente" />    
+        
+    </RelativeLayout>
+        	    
+    <ListView 
+        android:id="@+id/telaMensagens_lv_mensagens"
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000" 
+        android:divider="@color/transparente" 
+        android:layout_gravity="center"
+        android:descendantFocusability="afterDescendants" 
+        android:smoothScrollbar="true"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide" 
+        android:layout_weight="1" />
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="100sp" 
+        android:stretchColumns="0" >
+        <TableRow >
+            <EditText
+                android:id="@+id/telaMensagens_et_mensagem" 
+                android:gravity="top" android:layout_height="100sp" 
+                android:hint="@string/telaMensagem_et_mensagem" /> 
+			<ImageButton 
+			    android:id="@+id/telaMensagens_bt_enviar"
+			    android:src="@drawable/enviar_50"
+			    style="@style/estilo_botao_transparente" 
+			    android:layout_height="90sp" />     
+        </TableRow>
+    </TableLayout>
+	            
+</LinearLayout>

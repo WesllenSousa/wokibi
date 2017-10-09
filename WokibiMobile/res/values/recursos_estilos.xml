@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 
+    	TELA
+     -->
+     
+    <style name="estilo_topo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50sp</item>
+    </style>
+    
+    <!-- 
+    	TEXTVIEW
+     -->
+    
+    <style name="estilo_textview_principal">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/preto</item>
+    </style>
+    
+    <style name="estilo_textview_lista">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:layout_marginBottom">10sp</item>
+    </style>
+    
+    <style name="estilo_textview_divisaoLista">
+        <item name="android:background">@color/pretoClaro</item>
+        <item name="android:textColor">@color/branco</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="estilo_textview_tituloMensagem">
+        <item name="android:background">@color/cinzaClaro</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+   <style name="estilo_textview_cadastro">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_marginLeft">20sp</item>
+        <item name="android:layout_marginRight">20sp</item>
+    </style>
+    
+   <style name="estilo_textview_mensagem">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:gravity">left</item>
+    </style>
+    
+   <style name="estilo_textview_subTextolista">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/preto</item>
+        <item name="android:gravity">right</item>
+    </style>
+    
+   <!-- 
+    	EDITTEXT
+     -->
+     
+   <style name="estilo_edittext_cadastro">
+       <item name="android:layout_marginLeft">20sp</item>
+       <item name="android:layout_marginRight">20sp</item>
+   </style>
+   
+   <!-- 
+    	BUTTON
+     -->
+     
+   <style name="estilo_botao_transparente">
+       <item name="android:background">@color/transparente</item>
+       <item name="android:layout_marginLeft">5sp</item>
+       <item name="android:layout_marginRight">5sp</item>
+       <item name="android:layout_marginTop">5sp</item>
+       <item name="android:layout_marginBottom">5sp</item>
+   </style>
+    
+</resources>

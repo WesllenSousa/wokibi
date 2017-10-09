@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaAjuda_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/voltar_50" 
+            style="@style/estilo_botao_transparente" />
+       
+   </RelativeLayout>
+   
+    <ScrollView 
+    	android:layout_width="fill_parent" android:layout_height="fill_parent"  >
+        
+        <TableLayout 
+	        android:layout_width="match_parent" android:layout_height="wrap_content" 
+	        android:stretchColumns="1" android:shrinkColumns="1" 
+	        android:layoutAnimation="@anim/layout_animation_table" >
+	        
+            <TableRow >
+                <ImageView android:layout_gravity="center" android:src="@drawable/servidor_ativo_72" />
+                <TextView android:text="@string/telaAjuda_servidor"/>
+            </TableRow>
+            
+            <TableRow >
+                <ImageView android:layout_gravity="center" android:src="@drawable/conversa_servidor_72" />
+                <TextView android:text="@string/telaAjuda_conversaServidor"/>
+            </TableRow>
+            
+            <TableRow >
+                <ImageView android:layout_gravity="center" android:src="@drawable/contatos_conectados_72" />
+                <TextView android:text="@string/telaAjuda_servidoresConectados"/>
+            </TableRow>
+            
+            <TableRow >
+                <ImageView android:layout_gravity="center" android:src="@drawable/contatos_72" />
+                <TextView android:text="@string/telaAjuda_contatos"/>
+            </TableRow>
+            
+            <TableRow >
+                <ImageView android:layout_gravity="center" android:src="@drawable/configuracao_72" />
+                <TextView android:text="@string/telaAjuda_configuracoes"/>
+            </TableRow>
+            
+        </TableLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

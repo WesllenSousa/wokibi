@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Geral -->
+    <string name="nome_aplicacao">Wokibi</string>
+    <string name="geral_servidorNaoDefinido">Servidor não definido!</string>
+    <string name="geral_servidorNaoEncontrado">Servidor não encontrado!</string>
+    <string name="geral_rede">Rede</string>
+    <string name="geral_clienteConectando">Cliente conectando...</string>
+    
+    <!-- Dialogs -->
+    <string name="dialog_tituloDialogList">Escolha uma opção</string>
+    <string name="dialog_tituloDialogExcluir">Confirmar exclusão?</string>
+    <string name="dialog_tituloDialogDesconectar">Deseja realmente desconectar?</string>
+    <string name="dialog_tituloDialogSairPrograma">Deseja sair do Wokibi?</string>
+    <string name="dialog_tituloDialogConversa">Você deseja entrar ou criar uma conversa?</string>
+    <string name="dialog_cliente">Entrar</string>
+    <string name="dialog_servidor">Criar</string>
+    <string name="dialog_excluir">Excluir</string>
+    <string name="dialog_editar">Editar</string>
+    <string name="dialog_sim">SIM</string>
+    <string name="dialog_nao">NÃO</string>
+    <string name="dialog_criar">Criar</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_aviso">Aviso</string>
+    <string name="dialog_cancelar">Cancelar</string>
+    <string name="dialog_conectar">Conectar</string>
+    <string name="dialog_desconectar">Desconectar</string>
+    <string name="dialog_associarConversa">Associar a uma conversa</string>
+    <string name="dialog_iniciarConversa">Iniciar conversa</string>
+    <string name="dialog_detalhe">Detalhes</string>
+    <string name="dialog_enviarLocalizacao">Enviar Localização</string>
+    <string name="dialog_tituloDialogDono">Você não possui cadastro ainda, por favor faça seu cadastro.</string>
+    <string name="dialog_tituloDialogIp">Você está em uma rede privada.\nPor esse motivo você não será visível na internet!</string>
+    <string name="dialog_verMensagens">Mensagens</string>
+    <string name="dialog_ocultar">Ocultar</string>
+
+    <!-- Login -->
+    <string name="telaLogin_tv_senha">Senha</string>
+    <string name="telaLogin_ht_senha">Digite a senha...</string>
+    <string name="telaLogin_bt_logar">Logar</string>
+    <string name="telaLogin_bt_sair">Sair</string>
+    
+    <!-- Principal -->
+    <string name="telaPrincipal_tv_servidor">Servidor</string>
+    
+    <!-- Lista Contatos -->
+    <string name="telaListaContatos_barraDono">Eu</string>
+    <string name="telaListaContatos_barraAmigos">Amigos</string>
+    <string name="telaListaContatos_msg_contatoExluir">Contato excluído com sucesso!</string>
+    <string name="telaListaContatos_procurar">Procurar...</string>
+    
+    <!-- Cadastro Editar Contato -->
+    <string name="telaCadastroEditarContato_tv_nome">Nome*:  </string>
+    <string name="telaCadastroEditarContato_tv_ddd">DDD*:  </string>
+    <string name="telaCadastroEditarContato_tv_celular">Celular*:  </string>
+    <string name="telaCadastroEditarContato_tv_email">Email*:  </string>
+    <string name="telaCadastroEditarContato_bt_salvar">Salvar</string>
+    <string name="telaCadastroEditarContato_msg_nome">Nome vazio!</string>
+    <string name="telaCadastroEditarContato_msg_ddd">DDD vazio!</string>
+    <string name="telaCadastroEditarContato_msg_celular">Celular vazio!</string>
+    <string name="telaCadastroEditarContato_msg_email">Email vazio!</string>
+    <string name="telaCadastroEditarContato_msg_nomeExiste">Nome já existente!</string>
+    
+    <!-- Conversa -->
+    <string name="telaConversa_tv_conversaAtiva">Conversas Ativas</string>
+    <string name="telaConversa_tv_conversaInativa">Conversas Inativas</string>
+    <string name="telaConversa_msg_excluir">Conversa excluída com sucesso!</string>
+    
+    <!-- Contatos conectados -->
+    <string name="telaContatosConectados_tv_barraClientes">Contatos conectados ao seu celular</string>
+    <string name="telaContatosConectados_tv_barraServidores">Contatos em que você está conectado</string>
+    <string name="telaContatosConectados_msg_contatoDesconectado">Contato desconectado!</string>
+    <string name="telaContatosConectados_msg_verificar">Você não pode desconectar um servidor!</string>
+    
+    <!-- Clientes conectados -->
+    <string name="telaClientesConectados_buscar">Buscando clientes conectados...</string>
+    <string name="telaClientesConectados_iniciarConversa">Iniciando conversa...</string>
+    <string name="telaClientesConectados_conversaCriada">Conversa criada com sucesso!</string>
+    
+    <!-- Mensagem -->
+    <string name="telaMensagem_et_mensagem">Mensagem aqui...</string>
+    <string name="telaMensagem_msg_salvar">Contato salvo com sucesso!</string>
+    <string name="telaMensagem_msg_enviar">Mensagem enviada.</string>
+        
+    <!-- Nova Conversa Servidor -->
+    <string name="telaNovaConversaServidor_tv_barraLocalizacao">Informar localização por </string>
+    <string name="telaNovaConversaServidor_tv_contatos">Você deseja iniciar conversa com...</string>
+    <string name="telaNovaConversaServidor_ck_celular">Celular</string>
+    <string name="telaNovaConversaServidor_ck_email">Email</string>
+    <string name="telaNovaConversaServidor_bt_criar">Criar</string>
+    <string name="telaNovaConversaServidor_msg_servicoMensagem">Serviço de mensagem desabilitado!</string>
+    <string name="telaNovaConversaServidor_msg_localizacao">Escolha uma forma de localização!</string>
+    
+    <!-- Nova Conversa Cliente -->
+    <string name="telaNovaConversaCliente_tv_ip">Endereço do celular (Ip):  </string>
+    <string name="telaNovaConversaCliente_msg_conectar">Conectando...</string>
+    <string name="telaNovaConversaCliente_msg_conversa">Conversa criada com sucesso!</string>
+    
+    <!-- Associar Usuario -->
+    <string name="telaAssociarUsuario_barraConectado">Contatos conectados</string>
+    <string name="telaAssociarUsuario_barraDesconectado">Contatos desconectados</string>
+    <string name="telaAssociarContato_sms">Enviando localização SMS para: </string>
+    <string name="telaAssociarContato_rede">Solicitação enviado para: </string>
+    
+    <!-- Associar Conversa -->
+    <string name="telaAssociarConversa_localizacao">Solicitação enviada com sucesso!</string>
+    
+    <!-- Criar servidor -->
+    <string name="telaCriarServidor_barraLocalizacao">Endereço do celular </string>
+    <string name="telaCriarServidor_barraContatos">Contatos conectados </string>
+    <string name="telaCriarServidor_conectar">Ativar</string>
+    <string name="telaCriarServidor_desconectar">Desativar</string>
+    <string name="telaCriarServidor_semRede">Sem Rede</string>
+    <string name="telaCriarServidor_servicoDesabilitado">Serviço do servidor desabilitado!</string>
+    <string name="telaCriarServidor_servicoFalha">Não foi possível estabelecer conexão com o serviço do servidor!</string>
+      
+    <!-- Criar senha -->
+    <string name="telaCriarSenha_senhaAnterior">Senha Anterior*: </string>
+    <string name="telaCriarSenha_novaSenha">Nova Senha: </string>
+    <string name="telaCriarSenha_repetirSenha">Repetir Senha: </string>
+    <string name="telaCriarSenha_msg_senhasNaoCorrespondem">As senhas não correspondem!</string>
+    <string name="telaCriarSenha_msg_senhaInvalida">Senha anterior inválida!</string>
+    <string name="telaCriarSenha_msg_alterada">Senha alterada com sucesso!</string>
+    
+    <!-- Configurações -->
+    <string name="telaConfiguracoes_servidor">Servidor</string>
+    <string name="telaConfiguracoes_redes">Redes</string>
+    <string name="telaConfiguracoes_senha">Senhas</string>
+    <string name="telaConfiguracoes_opcao">Opções</string>
+    <string name="telaConfiguracoes_ajuda">Ajuda</string>
+    <string name="telaConfiguracoes_sobre">Sobre</string>
+    
+    <!-- Opções -->
+    <string name="telaOpcoes_barraServicos">Serviços</string>
+    <string name="telaOpcoes_servicoServidor">Habilitar o serviço do servidor</string>
+    <string name="telaOpcoes_servicoSMS">Habilitar o serviço de mensagem</string>
+    <string name="telaOpcoes_audio">Executar áudio</string>
+    
+    <!-- Ajuda -->
+    <string name="telaAjuda_servidor">
+        Esse é o servidor, ele é responsável por criar uma conexão que vai gerenciar suas conversas. Quando ele está 
+        ativo, outras pessoas podem se conectar ao seu celular e conversarem entre si. \n
+    </string>
+    <string name="telaAjuda_conversaServidor">
+        Cria e armazena as conversa com seus contatos. Você tem a opção de entrar ou criar uma conversa. 
+        Criar uma conversa é bem simples você indica com quem quer conversar e escolhe a forma de enviar localização. 
+        Entrar numa conversa você deve informar o endereço do outro celular.\n
+    </string>
+    <string name="telaAjuda_servidoresConectados">
+        Aqui você visualiza os contatos que estão conectados em seu celular e visualiza também os celulares em que 
+        você está conectado. Caso você esteja conectado a um celular, você poderá ver quais são as pessoas conectados a ele, 
+        podendo iniciar uma conversas privada com os contatos do seu amigo ou associar esses contatos a uma conversa em andamento.\n
+    </string>
+    <string name="telaAjuda_contatos">
+        Aqui você visualiza e adiciona seus contatos com quem você deseja conversar. \n
+    </string>
+    <string name="telaAjuda_configuracoes">
+        Exibe as configurações de sua aplicação. \n
+    </string>
+    
+    <!-- Sobre -->
+    <string name="telaSobre_versao">Versão: 1.1 - 21/12/2012 - Beta</string>
+    <string name="telaSobre_wesllen">
+        Autor: Wesllen Sousa Lima \n
+        Contato: wesllen.wsl@gmail.com
+    </string>
+    
+</resources>

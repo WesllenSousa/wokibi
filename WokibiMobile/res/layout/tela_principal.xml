@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout  style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaPrincipalServidor_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/sair_50" 
+            style="@style/estilo_botao_transparente" />
+        
+        <ImageButton
+            android:id="@+id/telaPrincipalServidor_bt_wifi"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/wifi_desativada_50" 
+            style="@style/estilo_botao_transparente" />
+        
+        <ImageButton
+            android:id="@+id/telaPrincipalCliente_bt_miniservidor"
+            android:layout_centerVertical="true" android:layout_toLeftOf="@+id/telaPrincipalServidor_bt_wifi"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/servidor_inativo_50" 
+            style="@style/estilo_botao_transparente" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    android:layout_width="match_parent" android:layout_height="match_parent" >
+
+        <ImageButton 
+            android:id="@+id/telaPrincipalServidor_bt_conversa" 
+            
+            android:layout_marginTop="20sp" android:layout_marginLeft="20sp"
+            android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+            
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/conversa_servidor"
+            style="@style/estilo_botao_transparente" />
+        
+        <ImageButton 
+            android:id="@+id/telaPrincipalServidor_bt_contatoConectados" 
+            
+            android:layout_marginTop="20sp" android:layout_marginRight="20sp"
+            android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+            
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/contatos_conectados"
+            style="@style/estilo_botao_transparente" />
+
+        <ImageButton
+            android:id="@+id/telaPrincipalServidor_bt_contatos"
+            
+            android:layout_marginBottom="20sp" android:layout_marginLeft="20sp"
+            android:layout_alignParentBottom="true" android:layout_alignParentLeft="true"
+            
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/contatos"
+            style="@style/estilo_botao_transparente" />
+         
+        <ImageView
+            android:layout_centerInParent="true"
+            
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/nome_logo"
+            style="@style/estilo_botao_transparente" />
+        
+        <ImageButton 
+            android:id="@+id/telaPrincipalServidor_bt_configuracoes"
+            
+            android:layout_marginBottom="20sp" android:layout_marginRight="20sp"
+            android:layout_alignParentBottom="true" android:layout_alignParentRight="true"
+            
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/configuracao"
+            style="@style/estilo_botao_transparente" />
+	    
+	</RelativeLayout>
+
+</LinearLayout>

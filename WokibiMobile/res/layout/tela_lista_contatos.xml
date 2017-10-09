@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaListaContatos_bt_inicio" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/inicio_50" 
+            style="@style/estilo_botao_transparente" />
+ 
+        <ImageButton
+            android:id="@+id/telaListaContatos_bt_adicionar"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/adicionar_50" 
+            style="@style/estilo_botao_transparente" />
+        
+    </RelativeLayout>
+    
+    <TextView 
+	      android:id="@+id/telaListaContatos_tv_barraDono"
+	      android:layout_width="fill_parent" android:layout_height="20sp" 
+	      style="@style/estilo_textview_divisaoLista"
+	      android:text="@string/telaListaContatos_barraDono" />
+    
+    <ListView 
+        android:id="@+id/telaListaContatos_lv_dono"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:divider="#fff"
+        android:cacheColorHint="#00000000"       
+        android:layout_gravity="center"
+        android:dividerHeight="1sp" 
+        android:descendantFocusability="afterDescendants" 
+        android:smoothScrollbar="true"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide" />
+    
+    <TextView 
+	      android:id="@+id/telaListaContatos_tv_barraAmigos"
+	      android:layout_width="fill_parent" android:layout_height="20sp" 
+	      style="@style/estilo_textview_divisaoLista"
+	      android:text="@string/telaListaContatos_barraAmigos" />
+    
+    <EditText
+            android:id="@+id/telaListaContatos_et_procurar"
+            android:hint="@string/telaListaContatos_procurar" 
+            android:layout_height="wrap_content" android:layout_width="fill_parent" />
+      
+    <ListView 
+        android:id="@+id/telaListaContatos_lv_contatos"
+        android:layout_width="fill_parent" android:layout_height="0dip" 
+        android:divider="#fff"
+        android:cacheColorHint="#00000000"     
+        android:layout_gravity="center"
+        android:dividerHeight="1sp" 
+        android:descendantFocusability="afterDescendants" 
+        android:smoothScrollbar="true"
+        android:layoutAnimation="@anim/layout_bottom_to_top_slide" 
+        android:layout_weight="1" />
+    
+</LinearLayout>
+

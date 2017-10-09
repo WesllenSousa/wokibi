@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaOpcoes_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/voltar_50" 
+            style="@style/estilo_botao_transparente" />
+       
+   </RelativeLayout>
+   
+    <TextView 
+	      android:id="@+id/telaOpcoes_barraServicos"
+	      android:layout_width="fill_parent" android:layout_height="20sp" 
+	      style="@style/estilo_textview_divisaoLista"
+	      android:text="@string/telaOpcoes_barraServicos" />
+   
+   <CheckBox 
+       android:id="@+id/telaOpcoes_ck_servicoServidor" 
+       android:layout_width="match_parent" android:layout_height="wrap_content" 
+       android:text="@string/telaOpcoes_servicoServidor" />
+   
+   <CheckBox 
+       android:id="@+id/telaOpcoes_ck_servicoSMS" 
+       android:layout_width="match_parent" android:layout_height="wrap_content" 
+       android:text="@string/telaOpcoes_servicoSMS" />
+   
+   <CheckBox 
+       android:id="@+id/telaOpcoes_ck_audio" 
+       android:layout_width="match_parent" android:layout_height="wrap_content" 
+       android:text="@string/telaOpcoes_audio" />
+
+</LinearLayout>

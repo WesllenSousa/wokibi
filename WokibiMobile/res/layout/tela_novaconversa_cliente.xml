@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout  style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaNovaConveraCliente_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/voltar_50" 
+            style="@style/estilo_botao_transparente" />
+ 
+        <ImageButton
+            android:id="@+id/telaNovaConveraCliente_bt_confirmar"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/confirmar_50" 
+            style="@style/estilo_botao_transparente" />
+        
+    </RelativeLayout>
+    
+     <TextView 
+         android:text="@string/telaNovaConversaCliente_tv_ip" 
+         style="@style/estilo_textview_cadastro" 
+         android:layout_width="match_parent" android:layout_height="wrap_content" 
+         android:layout_marginTop="30sp" /> 
+     
+     <EditText 
+         android:id="@+id/telaNovaConveraCliente_et_ip" 
+         style="@style/estilo_edittext_cadastro" 
+         android:layout_width="match_parent" android:layout_height="wrap_content" 
+         android:inputType="phone" />
+
+</LinearLayout>

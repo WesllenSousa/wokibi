@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@drawable/fundo" >
+    
+    <RelativeLayout style="@style/estilo_topo" android:background="@drawable/fundo_topo" >
+        
+        <ImageButton 
+            android:id="@+id/telaCadastroEditarContato_bt_voltar" 
+            android:layout_centerVertical="true" android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/voltar_50" 
+            style="@style/estilo_botao_transparente" />
+ 
+        <ImageButton
+            android:id="@+id/telaCadastroEditarContato_bt_salvar"
+            android:layout_centerVertical="true" android:layout_alignParentRight="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/salvar_50" 
+            style="@style/estilo_botao_transparente" /> 
+            
+        <ImageButton
+            android:id="@+id/telaCadastroEditarContato_bt_importar"
+            android:layout_centerVertical="true" android:layout_toLeftOf="@+id/telaCadastroEditarContato_bt_salvar"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/adicionar_contato_50" 
+            style="@style/estilo_botao_transparente" />
+        
+    </RelativeLayout>
+
+    <ScrollView 
+    	android:layout_width="fill_parent" android:layout_height="fill_parent"  >
+    <LinearLayout 
+	    android:layout_width="match_parent" android:layout_height="match_parent"
+	    android:orientation="vertical" >
+        
+        <TextView 
+            android:text="@string/telaCadastroEditarContato_tv_nome" style="@style/estilo_textview_cadastro"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        
+       	<EditText 
+       	    android:id="@+id/telaCadastroEditarContato_et_nome" style="@style/estilo_edittext_cadastro" 
+			android:layout_width="match_parent" android:layout_height="wrap_content" />
+        
+        <TextView 
+            android:text="@string/telaCadastroEditarContato_tv_ddd" style="@style/estilo_textview_cadastro"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+        
+        <EditText 
+            android:id="@+id/telaCadastroEditarContato_et_ddd" style="@style/estilo_edittext_cadastro" 
+            android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:inputType="number" />
+        
+        <TextView 
+            android:text="@string/telaCadastroEditarContato_tv_celular" style="@style/estilo_textview_cadastro"
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+         
+        <EditText 
+            android:id="@+id/telaCadastroEditarContato_et_celular" style="@style/estilo_edittext_cadastro" 
+            android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:inputType="number" />
+        
+        <TextView 
+            android:text="@string/telaCadastroEditarContato_tv_email" style="@style/estilo_textview_cadastro" 
+            android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+        <EditText 
+            android:id="@+id/telaCadastroEditarContato_et_email" style="@style/estilo_edittext_cadastro" 
+            android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:inputType="textEmailAddress" />
+        
+    </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

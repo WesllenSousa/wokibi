@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="wsl_tema_fundo" parent="@android:style/Theme.Light.NoTitleBar" >
+        <item name="android:background">@color/transparente</item>
+    </style>
+    
+    <style name="wsl_tema_transparente" parent="@android:style/Theme.Light.NoTitleBar" >
+         <item name="android:windowIsTranslucent">true</item>
+         <item name="android:windowBackground">@color/transparente</item>
+         <item name="android:windowContentOverlay">@null</item>
+         <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+</resources>

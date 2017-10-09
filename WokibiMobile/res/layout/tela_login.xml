@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="match_parent" android:layout_height="match_parent"
+	 android:padding="10dip" android:background="@drawable/fundo" >
+
+ <ImageView 
+      android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:layout_alignParentTop="true" android:layout_centerHorizontal="true"
+      android:src="@drawable/logo_300" />
+ 
+ <TableLayout 
+     android:layout_width="fill_parent" android:layout_height="wrap_content" 
+     android:layout_centerInParent="true"
+     android:stretchColumns="0">
+     <TableRow >
+          <EditText 
+		     android:id="@+id/telaLogin_et_senha"
+		     android:password="true" 
+		     android:hint="@string/telaLogin_ht_senha" />
+		 <ImageButton 
+		     android:id="@+id/telaLogin_bt_logar"
+		  	 android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		  	 android:src="@drawable/enviar_50"
+		  	 style="@style/estilo_botao_transparente" />
+     </TableRow>
+ </TableLayout>
+ 
+</RelativeLayout>
